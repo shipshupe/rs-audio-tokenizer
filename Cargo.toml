@@ -1,0 +1,13 @@
+[package]
+name = "rs-audio-tokenizer"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+cpal = "0.15.3"
+hound = "3.5.1"
+reqwest = {version = "0.12.12", features = ["blocking"]}
+futures = "0.3.31"
+clap = { version = "4.0", features = ["derive"] }
+anyhow = "1.0"
